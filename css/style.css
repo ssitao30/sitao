@@ -714,11 +714,11 @@ textarea
 	margin-left: 0; 
 } 
 .images_1_of_4 {
-	width: 45%;
+	width: 10%;
 	padding:1.5%; 
 }
 .images_1_of_4  img{
-	max-width:75%;
+	max-width:10%;
 	border-radius: 50%;
 	margin: 6px -2px 4px 0px;
 }
