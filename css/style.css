@@ -2926,4 +2926,11 @@ ul.sidebar_1 li {
 		padding: 5px 16px;
 	}
 }
+.skills{
+color: #00A0B0;
+list-style-type: disc;
+line-break: 20px;
+font-size: 150%;
+
+}
 /*****  //Media Quries for 320px tabs *****/
