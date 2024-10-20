@@ -2929,8 +2929,8 @@ ul.sidebar_1 li {
 .skills{
 color: #00A0B0;
 list-style-type: disc;
-line-break: 20px;
-font-size: 150%;
+
+font-size: 100%;
 
 }
 /*****  //Media Quries for 320px tabs *****/
