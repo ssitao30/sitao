@@ -12,8 +12,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/owl.carousel.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+	<script>
+			$(document).ready(function() {
+				$("#owl-demo").owlCarousel({
+					items : 4,
+					lazyLoad : true,
+					autoPlay : true,
+					navigation : true,
+					navigationText : ["", ""],
+					rewindNav : false,
+					scrollPerPage : false,
+					pagination : false,
+					paginationNumbers : false,
+				});
+			});
+		</script>
+		<!-- //Owl Carousel Assets -->
 		<!-----768px-menu----->
 		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
 		<script type="text/javascript" src="js/jquery.mmenu.js"></script>
@@ -68,11 +86,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="h_menu">
 					<ul>
 						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Me</a></li>
-						<li><a href="services.html">Technical Skills</a></li>
-						<li><a href="pages.html">Lesson Learned</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="contact.html">Contact Me</a></li>
+							<li><a href="about.html">About Me</a></li>
+							<li><a href="services.html">Technical Skills</a></li>
+							<li><a href="pages.html">Lesson Learned</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="contact.html">Contact Me</a></li>
 					</ul>
 				</div>
 				<div class="h_search">
@@ -85,53 +103,208 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 	</div>
 </div>
- <div class="main">
-   	    <div class="wrap">	 
-			 <h3 class="heading">Things that i think i can do:</h3><br>
-				<div class="cont1 span_2_of_g1">
-				     <div class="section group">
-				          <div class="col_1_of_about-box span_1_of_about-box">
-							<video controls , width="30%">
-							   <source src="Video/plc.mp4" type="video/mp4"></video>
-							</video>
-					  </div>
-					  <div class="col_1_of_about-box span_1_of_about-box">
-							<div id="nivo-lightbox-demo"> <p> <a href="images/skl22.jpeg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
-							    <img src="images/skl2fix.jpeg" alt="">
-					  </div>
-					  <div class="col_1_of_about-box span_1_of_about-box">
-						        <div id="nivo-lightbox-demo"> <p> <a href="images/skil1.jpeg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
-							    <img src="images/skil11.jpeg" alt="">
-						            </div>
-						         </div>
-					   </div>
-					   
-					   <br>
-		                  <div class="section group">
-						 <ul div class="skills">
-							<li>Mengoperasikan PLC Omron (membuat ladder dan merangkai)</li>
-							<li>Menguasai PSIM</li>
-							<li>Membuat program sederhana dengan bahasa pemrograman Java, phyton</li>
-							<li>Membuat tampilan website sederhana</li>
-						 </ul>
-				  </div>
-		    <br>
+			
+			<div class="Recent-wroks"><!-- start services -->
+				<div class="wrap">
+				<div class="Recent-wrok">
+					<h5 class="heading" style="text-decoration: underline;">Things That I Think I Can Do :</h5>
+					<!----start-img-cursual---->
+					<div id="owl-demo" class="owl-carousel">
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s1.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s1.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Menguasai PSIM</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s2.jpeg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s2.jpeg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Perakitan rangkaian</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s3.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s3.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Membuat tampilan web sederhana</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s4.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s4.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Troubleshooting</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s5.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s5.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Mengoperasikan PLC</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s6.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s6.png" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Membuat proggram sederhana</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s1.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s1.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Menguasai PSIM</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s2.jpeg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s2.jpeg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Perakitan rangkaian</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s3.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s3.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Membuat tampilan web sederhana</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s4.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s4.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Troubleshooting</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s5.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s5.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Mengoperasikan PLC</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/s6.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="images/s6.png" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Membuat proggram sederhana</a></h4>
+								<p>
+									
+								</p>
+							</div>
+						</div>
+							</div>
+						</div>
+					</div>
+					<!----//End-img-cursual---->
 				</div>
-				   <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+				 <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
 				<script type="text/javascript">
 				$(document).ready(function(){
 				    $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });
 				});
 				</script>
-		</div>
-		</div>
-	<div class="footer">
+
+				</div>
+			</div>
+			<div class="last_posts"><!-- start last_posts -->
+				<div class="wrap">
+					<h5 class="heading" style="text-decoration: underline;">Last posts</h5>
+					<div class="l-grids">
+						<div class="l-grid-1">
+							<div class="desc">
+								<h3 style="text-decoration: underline;">Finding Nemo</h3>
+								<span>  &nbsp; </span>
+								<p></p>
+							</div>
+							<img src="images/im1.jpg">	
+							<div class="clear"> </div>
+						</div>
+						<div class="l-grid-1 l-grid-2">
+							<div class="desc">
+								<h3 style="text-decoration: underline;">Monsters, Inc</h3>
+								<span> &nbsp; </span>
+								<p></p>
+							</div>
+							<img src="images/im.jpg">	
+							<div class="clear"> </div>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer">
 				<div class="wrap">
 					<div class="footer-left">
 						<h3>More About Me</h3>
-						<p>Wanna know more about me? check on my social media under!</p>
+						<p>Wanna know more about me? Check on my social media under!</p>
+						<p></p>
 					<div class="detail">
-						
+						<ul>
+								
+						</ul>
 					</div>
 					<div class="soc_icons soc_icons1">
 							<ul>
@@ -151,7 +324,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 			<div class="copy">
-				       <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+				       <marquee><p>© 2024 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p></marquee>
 			  </div>
 </body>
 </html>
