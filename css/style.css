@@ -622,6 +622,7 @@ textarea
 	color:#929191;
 	font-weight: 600;
 }
+/*ICON*/
 .soc_icons ul li a span{
 	margin-left: 60px;
 }
@@ -629,10 +630,13 @@ textarea
 	background: #39579D url('../images/icon1.png') no-repeat 16px 9px;
 }
 .soc_icons ul li a.icon2{
-	background: #02B3E9 url('../images/icon2.png') no-repeat 10px 12px;
+	background: #000000 url('../images/twitter1.png') no-repeat 4px 4px;
 }
 .soc_icons ul li a.icon3{
 	background: #D95333 url('../images/icon3.png') no-repeat 13px 11px;
+}
+.soc_icons ul li a.icon4{
+	background: #E1306C url('../images/igg2.png') no-repeat -4px -4px;
 }
 .soc_icons ul li a:hover{
 	zoom: 1;
